@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nombre": "Alfajores de chocolate",
+    "precio": 12000,
+    "stock": 10,
+    "imagen": "./Recursos/imgenes/productos/alfajores de chocolate con dulce de leche.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Alfajores de Maicena",
+    "precio": 23000,
+    "stock": 8,
+    "imagen": "./Recursos/imgenes/productos/alfajores de Maicena.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Alfajores de Mousse",
+    "precio": 31000,
+    "stock": 5,
+    "imagen": "./Recursos/imgenes/productos/alfajores de Mousse.PNG"
+  },
+  {
+    "id": 4,
+    "nombre": "Alfajores de pistacho",
+    "precio": 43000,
+    "stock": 12,
+    "imagen": "./Recursos/imgenes/productos/alfajores de pistacho 1.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Alfajores de pistacho 2",
+    "precio": 42000,
+    "stock": 2,
+    "imagen": "./Recursos/imgenes/productos/alfajores de pistacho 2.jpg"
+  }
+]

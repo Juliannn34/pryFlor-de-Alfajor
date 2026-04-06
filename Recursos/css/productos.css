@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #F5F5F5;
+  background-color: #F3E8DF;
 }
 
 
@@ -75,6 +75,118 @@ body {
 
 /*  MAIN - CONTENIDO */
 
+.titulo-bienvenida {
+  width: 100%;
+  height: 400px;    
+  position: absolute;
+  text-align: center;
+  top: 25%;          
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 70px;
+  padding-top: 10px;
+  text-shadow: 0 0 3px #ffffff66, 0 0 10px #ffffff66, 0 0 20px #ffffff66; 
+}
+
+.titulo-bienvenida p {
+  font-size: 16px; 
+  line-height: 1.6; /* espacio entre líneas */
+  color: #dddddd; 
+  margin-bottom: 24px; 
+}
+
+/* FILTRO */
+.barra-filtro{
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.barra-filtro select{
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* GRID PRODUCTOS */
+.productos-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));;
+  gap: 25px;
+  max-width: 1200px;
+  margin: 20px auto 50px;
+  padding: 0 20px;
+}
+
+/* CARD */
+.producto-card{
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  /* box-shadow: 0 4px 10px rgba(0,0,0,0.15); */
+  transition: all 0.3s ease;
+}
+
+/* hover animado */
+.producto-card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* link completo */
+.producto-card a{
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+/* imagen */
+.producto-card img{
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* texto */
+.nombre{
+  font-size: 16px;
+  margin: 10px;
+}
+
+.precio{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stock{
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+/* botón */
+.producto-card button{
+  background: #FF7070;
+  color: black;
+  border: none;
+  padding: 10px;
+  width: 90%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.producto-card button:hover{
+  background: #BCD9A2;
+  color: black;
+}
 
 
 

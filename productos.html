@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flor De Alfajor | Inicio </title>
-
-    <link rel="stylesheet" href="Recursos/css/index.css">
-
+    <!-- CSS -->
+    <link rel="stylesheet" href="Recursos/css/productos.css">
+    <!-- JS -->
+    <script type="module" src="./Recursos/js/index.js"></script>
+    <!-- Icono de la pagina -->
     <link rel="shortcut icon" href="./Recursos/imgenes/Logo/Icono-de-flor-de-alfajor.ico" type="image/x-icon">
 
     <!-- ICONOS DE REDES SOCIALES -->
@@ -14,6 +16,7 @@
 </head>
 <body>
     <header class="cabecera-principal">
+
         <!--Logo-->
         <a href="index.html">
             <img class="logo-nav" src="./Recursos/imgenes/Logo/Logo de flor de alfajor.png" alt="Logo De  Flor de Alfajor">
@@ -29,9 +32,58 @@
         
     </header>
 
+
     <main>
         
+        <section class="">
+            <h1>Tienda</h1>
+
+            <nav>
+                <p>
+                    <a href="index.html">Home</a>
+                    <span> - </span>
+                    <span>Tienda</span>
+                </p>
+            </nav>
+        </section>
+
+        <!-- FILTRO -->
+        <section class="barra-filtro">
+            <form>
+                <select>
+                    <option>Orden Predeterminado</option>
+                    <option>Precio: Mayor a Menor</option>
+                    <option>Precio: Menor a Mayor</option>
+                </select>
+            </form>
+        </section>
+
+        <!-- PRODUCTOS -->
+        <section class="productos-grid" id="productos-contenedor">
+
+            <!-- producto 1 -->
+
+            <article class="producto-card">
+                <a href="#">
+                    <img src="./Recursos/imgenes/productos/alfajores de chocolate con dulce de leche.jpg">
+
+                    <h3 class="nombre">Alfajores de Chocolate</h3>
+                    <p class="precio">$ 43.000</p>
+                    <p class="stock">Stock: 10</p>
+
+                    <button>AÑADIR AL CARRITO</button>
+                </a>
+            </article>
+
+            <!-- producto 2 -->
+
+            
+            
+        </section>
     </main>
+    
+
+
 
     <footer class="pie-pagina">
         <div class="grupo-1">
